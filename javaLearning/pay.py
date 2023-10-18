@@ -1,0 +1,5 @@
+weekends = float(input("How many hours on Sunday: "))
+normal = float(input("How many hours on normal days: "))
+pay_calc = (normal * 10.36) + (weekends * (10.36 * 1.25))
+pay = round(pay_calc, 2)
+print("Your total is:", pay)
